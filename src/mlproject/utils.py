@@ -4,6 +4,9 @@ from src.mlproject.exception import CustomException
 from src.mlproject.logger import logging
 import pandas as pd
 from dotenv import load_dotenv
+import dill
+from sklearn.metrics import r2_score
+from sklearn.model_selection import GridSearchCV
 import pymysql
 import pickle
 import numpy as np

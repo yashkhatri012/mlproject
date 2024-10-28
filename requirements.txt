@@ -7,3 +7,7 @@ scikit-learn
 seaborn
 catboost
 xgboost
+scikit-learn
+Flask
+dill
+mlflow==2.2.2
